@@ -14,15 +14,10 @@ public class AppEac4P2 {
     private static final int OP_ENTRADA_RAIM = 1;
     private static final int OP_SORTIDA_RAIM = 2;
     private static final int OP_ESTADO_ALMACEN = 3;
-    private static final int OP_SALIR = 4;
-    
+    private static final int OP_SALIR = 4;    
     private static final int SALIR = -1;
     
-    
-    private static final int OP_ALMACEN = 3;
-    
-    
-    
+       
     // FIN CONSTANTES //
     
     // CODIFICACIÓN FACILITADA POR EL INSTITUTO //
@@ -155,7 +150,7 @@ public class AppEac4P2 {
                           "VARIETAT", "QUANTITAT",
                           "-------------", "---------"); 
         
-        imprimirAlmacen(3);
+        imprimirAlmacen(OP_ESTADO_ALMACEN);
     }
     // FIN SEGUNDO NIVEL //
     
