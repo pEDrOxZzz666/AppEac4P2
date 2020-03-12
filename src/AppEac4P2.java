@@ -91,10 +91,8 @@ public class AppEac4P2 {
         }else if(opcion == OP_SALIR)
         {
             opcion = SALIR;
-        }else if(opcion == 0)
-        {            
-            menuPrincipal();
         }
+        
         return opcion;
     }    
     // FIN PRIMER NIVEL //
